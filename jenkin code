@@ -1,0 +1,20 @@
+pipeline {
+          agent any
+           stages  {
+                  stage('jenkin001')  {
+	           steps  {
+		    //
+		}
+	     }
+	     stage('testing')  {
+		steps  {
+		        //
+		}
+	     }
+	     stage('testing release')  {
+		steps  {
+		        //
+		}
+	     }
+          }
+}
